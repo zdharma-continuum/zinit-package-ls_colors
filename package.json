@@ -1,0 +1,75 @@
+{
+    "_from": "LS_COLORS@^1.0",
+    "_id": "zsh-LS_COLORS@1.0",
+    "_inBundle": false,
+    "_location": "/zsh-LS_COLORS",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "range",
+        "registry": true,
+        "raw": "LS_COLORS@^1.0",
+        "name": "LS_COLORS",
+        "escapedName": "LS_COLORS",
+        "rawSpec": "^1.0",
+        "saveSpec": null,
+        "fetchSpec": "^1.0"
+    },
+    "_requiredBy": [],
+    "_spec": "LS_COLORS@^1.0",
+    "_where": "/root/github2/pkg-LS_COLORS",
+    "author": "Magnus Woldrich",
+    "bugs": {
+        "url": "https://github.com/trapd00r/LS_COLORS/issues"
+    },
+    "version" : "1.0",
+    "contributors": [],
+    "dependencies": {},
+    "deprecated": false,
+    "description": "A collection of LS_COLORS definitions; needs your contribution!",
+    "devDependencies": {},
+    "directories": {
+        "test": "test"
+    },
+    "homepage": "https://github.com/trapd00r/LS_COLORS",
+    "keywords": [
+        "GNU ls colors",
+        "exa colors",
+        "terminal colors",
+        "zsh"
+    ],
+    "license": "MIT",
+    "name": "zsh-LS_COLORS",
+    "zsh-data": {
+        "plugin-info": {
+            "user": "trapd00r",
+            "plugin": "LS_COLORS",
+            "version": "1.0"
+        },
+        "zplugin-ices": {
+            "default": {
+                "lucid" : "",
+                "reset" : "",
+                "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
+                "atpull": "%atclone",
+                "pick": "clrs.zsh",
+                "nocompile": "!",
+                "atload": "zstyle ':completion:*:default' list-colors \"${(s.:.)LS_COLORS}\";"
+            },
+            "no-zsh-completion": {
+                "lucid" : "",
+                "reset" : "",
+                "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
+                "atpull": "%atclone",
+                "pick": "clrs.zsh",
+                "nocompile": "!"
+            },
+            "no-dir-color-swap": {
+                "lucid" : "",
+                "atclone": "${${(M)OSTYPE:#*darwin*}:+g}dircolors -b LS_COLORS > clrs.zsh",
+                "atpull": "%atclone",
+                "pick": "clrs.zsh",
+                "nocompile": "!"
+            }
+        }
+    }
+}
