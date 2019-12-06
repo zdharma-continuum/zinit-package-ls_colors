@@ -1,21 +1,21 @@
 {
-    "_from": "LS_COLORS@^1.0.0",
-    "_id": "zsh-LS_COLORS@1.0.0",
+    "_from": "ls_colors@^1.0.0",
+    "_id": "zsh-ls_colors@1.0.0",
     "_inBundle": false,
-    "_location": "/zsh-LS_COLORS",
+    "_location": "/zsh-ls_colors",
     "_phantomChildren": {},
     "_requested": {
         "type": "range",
         "registry": true,
-        "raw": "LS_COLORS@^1.0.0",
-        "name": "LS_COLORS",
-        "escapedName": "LS_COLORS",
+        "raw": "ls_colors@^1.0.0",
+        "name": "ls_colors",
+        "escapedName": "ls_colors",
         "rawSpec": "^1.0.0",
         "saveSpec": null,
         "fetchSpec": "^1.0.0"
     },
     "_requiredBy": [],
-    "_spec": "LS_COLORS@^1.0.0",
+    "_spec": "ls_colors@^1.0.0",
     "_where": "/root/github2/pkg-LS_COLORS",
     "author": "Magnus Woldrich",
     "bugs": {
@@ -37,8 +37,8 @@
         "terminal colors",
         "zsh"
     ],
-    "license": "MIT",
-    "name": "zsh-LS_COLORS",
+    "license": "Artistic License",
+    "name": "zsh-ls_colors",
     "zsh-data": {
         "plugin-info": {
             "user": "trapd00r",
