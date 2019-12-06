@@ -21,7 +21,7 @@
     "bugs": {
         "url": "https://github.com/trapd00r/LS_COLORS/issues"
     },
-    "version" : "1.0.0",
+    "version": "1.0.1",
     "contributors": [],
     "dependencies": {},
     "deprecated": false,
@@ -47,9 +47,9 @@
         },
         "zplugin-ices": {
             "default": {
-                "git" : "",
-                "lucid" : "",
-                "reset" : "",
+                "git": "",
+                "lucid": "",
+                "reset": "",
                 "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
                 "atpull": "%atclone",
                 "pick": "clrs.zsh",
@@ -57,17 +57,17 @@
                 "atload": "zstyle ':completion:*:default' list-colors \"${(s.:.)LS_COLORS}\";"
             },
             "no-zsh-completion": {
-                "git" : "",
-                "lucid" : "",
-                "reset" : "",
+                "git": "",
+                "lucid": "",
+                "reset": "",
                 "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
                 "atpull": "%atclone",
                 "pick": "clrs.zsh",
                 "nocompile": "!"
             },
             "no-dir-color-swap": {
-                "git" : "",
-                "lucid" : "",
+                "git": "",
+                "lucid": "",
                 "atclone": "${${(M)OSTYPE:#*darwin*}:+g}dircolors -b LS_COLORS > clrs.zsh",
                 "atpull": "%atclone",
                 "pick": "clrs.zsh",
