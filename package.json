@@ -47,6 +47,7 @@
         },
         "zplugin-ices": {
             "default": {
+                "git" : "",
                 "lucid" : "",
                 "reset" : "",
                 "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
@@ -56,6 +57,7 @@
                 "atload": "zstyle ':completion:*:default' list-colors \"${(s.:.)LS_COLORS}\";"
             },
             "no-zsh-completion": {
+                "git" : "",
                 "lucid" : "",
                 "reset" : "",
                 "atclone": "local P=${${(M)OSTYPE:#*darwin*}:+g}; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
@@ -64,6 +66,7 @@
                 "nocompile": "!"
             },
             "no-dir-color-swap": {
+                "git" : "",
                 "lucid" : "",
                 "atclone": "${${(M)OSTYPE:#*darwin*}:+g}dircolors -b LS_COLORS > clrs.zsh",
                 "atpull": "%atclone",
