@@ -1,13 +1,15 @@
-# trapd00r/LS_COLORS as a Zsh/NPM package
+# trapd00r/LS\_COLORS as a Zsh/NPM package
+
+##### NPM link: [https://www.npmjs.com/package/zsh-ls\_colors](https://www.npmjs.com/package/zsh-ls_colors)
 
 [Zplugin](https://github.com/zdharma/zplugin) can use the NPM package registry
 to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
-- there can be multiple lists of ices,
-- the ice lists are stored in *profiles*; there's at least one profile, *default*,
-- the ices can be selectively overriden.
+    - there can be multiple lists of ices,
+    - the ice lists are stored in *profiles*; there's at least one profile, *default*,
+    - the ices can be selectively overriden.
 
 Example invocations that'll install
 [trapd00r/LS\_COLORS](https://github.com/trapd00r/LS_COLORS) from Git
@@ -16,13 +18,13 @@ Wiki](http://zdharma.org/zplugin/wiki/LS_COLORS-explanation/):
 
 ```zsh
 # Download the default profile
-zplugin pack for LS_COLORS
+zplugin pack for ls_colors
 
 # Download the no-zsh-completion profile
-zplugin pack"no-zsh-completion" for LS_COLORS
+zplugin pack"no-zsh-completion" for ls_colors
 
 # Download the no-dir-color-swap profile
-zplugin pack"no-dir-color-swap" for LS_COLORS
+zplugin pack"no-dir-color-swap" for ls_colors
 ```
 
 ## Default Profile
