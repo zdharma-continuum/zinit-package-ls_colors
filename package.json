@@ -43,14 +43,14 @@
         "plugin-info": {
             "user": "trapd00r",
             "plugin": "LS_COLORS",
-            "version": "1.0.0"
+            "version": "1.0.3"
         },
         "zplugin-ices": {
             "default": {
                 "git": "",
                 "lucid": "",
                 "reset": "",
-                "atclone": "[[ -z ${commands[dircolors]} ]] && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh",
+                "atclone": "[[ -z ${commands[dircolors]} ]] && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' LS_COLORS; ${P}dircolors -b LS_COLORS > clrs.zsh%ID%USER%PLUGIN%URL%DIR",
                 "atpull": "%atclone",
                 "pick": "clrs.zsh",
                 "nocompile": "!",
