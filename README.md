@@ -40,7 +40,7 @@ directory (see the details in the `no-dir-color-swap` profile section).
 The Zplugin command executed will be equivalent to:
 
 ```zsh
-zplugin wait"0c" lucid reset \
+zplugin lucid reset \
  atclone"[[ -z ${commands[dircolors]} ]] && local P=g
     \${P}sed -i '/DIR/c\DIR 38;5;63;1' LS_COLORS; \
     \${P}dircolors -b LS_COLORS > c.zsh" \
@@ -57,7 +57,7 @@ the zsh-completion system to use them.
 The Zplugin command executed will be equivalent to:
 
 ```zsh
-zplugin wait"0c" lucid reset \
+zplugin lucid reset \
  atclone"[[ -z ${commands[dircolors]} ]] && local P=g
     \${P}sed -i '/DIR/c\DIR 38;5;63;1' LS_COLORS; \
     \${P}dircolors -b LS_COLORS > c.zsh" \
@@ -75,7 +75,7 @@ too dark.
 The Zplugin command executed will be equivalent to:
 
 ```zsh
-zplugin wait"0c" lucid \
+zplugin lucid \
  atclone"[[ -z ${commands[dircolors]} ]] && local P=g
      ${P}dircolors -b LS_COLORS > c.zsh" \
  atpull'%atclone' pick"c.zsh" nocompile'!' \
