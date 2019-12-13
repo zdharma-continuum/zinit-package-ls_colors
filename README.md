@@ -1,7 +1,5 @@
 # trapd00r/LS\_COLORS as a Zsh/NPM package
 
-##### NPM link: [https://www.npmjs.com/package/zsh-ls\_colors](https://www.npmjs.com/package/zsh-ls_colors)
-
 ##### Homepage link: [trapd00r/LS\_COLORS](https://github.com/trapd00r/LS_COLORS)
 
 | **Package source:** | Tarball | Git | Node | Gem |
