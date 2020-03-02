@@ -6,8 +6,8 @@
 |:-------------------:|:-------:|:---:|:----:|:---:|
 | **Status:**         |    -    |  + <br> (default) | – |  –  |
 
-[Zinit](https://github.com/zdharma/zinit) can use the NPM package registry
-to automatically:
+[Zinit](https://github.com/zdharma/zinit) can use a `package.json`
+(similar in construct to the one used in `npm` packages) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
