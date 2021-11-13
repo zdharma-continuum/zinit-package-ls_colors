@@ -45,7 +45,7 @@
             "plugin": "LS_COLORS",
             "version": "1.0.3"
         },
-        "zplugin-ices": {
+        "zinit-ices": {
             "default": {
                 "git": "",
                 "lucid": "",
