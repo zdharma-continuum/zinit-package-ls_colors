@@ -1,3 +1,7 @@
+# Deprecated
+
+❗ All zinit-packages have been migrated to https://github.com/zdharma-continuum/zinit-packages
+You'll find the source for this here package in https://github.com/zdharma-continuum/zinit-packages/tree/HEAD/ls_colors
 # trapd00r/LS_COLORS: Zsh & NPM package
 
 **LS_COLORS source code**:
